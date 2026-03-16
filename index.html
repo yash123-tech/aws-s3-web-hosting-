@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1><a class="logo" href="#"> Yash Yogi</a></h1>
+
+
+            <label for="menu-toggle" class="menu-icon">
+                ☰
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="disabled">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>
+                Engineering cloud infrastructure<br>
+                automating deployments<br>
+                ensuring high availability<br>
+                <span id="typing"></span>
+            </h1>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="exp-single">
+            <h3>IT Executive</h3>
+            <span>PV Lumens India Pvt Ltd, Mumbai.</span>
+
+            <p>
+                Managing day-to-day IT operations, system administration, user support
+                and infrastructure monitoring. Working with servers, networking,
+                documentation and automation to improve operational efficiency.
+            </p>
+
+            <ul class="exp-points">
+                <li>Python scripts For Employees </li>
+                <li>Coordination with external vendors for website upgradation</li>
+                <li>Zoho Analytics dashboard usage & data analysis</li>
+                <li>Zoho CRM user training & support</li>
+                <li>Zoho ID creation and access management</li>
+                <li>Zoho report generation and data handling</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+  <h2 class="section-title">Education</h2>
+
+  <div class="edu-container">
+    <div class="edu-card">
+      <h3>Executive Post Graduate Certification</h3>
+      <span>Cloud Computing & DevOps • IIT Roorkee (Ongoing)</span>
+      <p>
+        Executive-level certification program focused on cloud infrastructure,
+        DevOps tools, CI/CD pipelines, automation and real-world industry use cases.
+      </p>
+    </div>
+
+    <div class="edu-card">
+      <h3>B.Tech – Computer Science</h3>
+      <span>Shridhar University, Pilani • 2021-2025</span>
+      <p>
+        Strong foundation in computer science including programming,
+        networking, databases, operating systems and software engineering.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <h2 class="section-title">Projects</h2>
+
+  <div class="project-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h3>Linux Automation Scripts</h3>
+      <span>Linux • Shell Scripting • Automation</span>
+
+      <p>
+        Developed multiple shell scripts to automate system monitoring,
+        backups, user management and log analysis.
+      </p>
+
+      <div class="project-footer">
+        <span class="status ongoing">In Progress</span>
+        <a href="#" class="project-link">View Scripts</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h3>Cloud Infrastructure Setup</h3>
+      <span>AWS • EC2 • IAM • VPC</span>
+
+      <p>
+        Designed and deployed cloud infrastructure including EC2 instances,
+        IAM roles and secure VPC networking.
+      </p>
+
+      <div class="project-footer">
+        <span class="status ongoing">In Progress</span>
+        <a href="#" class="project-link">View Details</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <h3>CI/CD Pipeline Implementation</h3>
+      <span>Git • CI/CD • Automation</span>
+
+      <p>
+        Building automated CI/CD pipelines for application deployment and
+        version control integration.
+      </p>
+
+      <div class="project-footer">
+        <span class="status planned">Planned</span>
+        <a href="#" class="project-link">Coming Soon</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="skills-section" id="skills">
+  <h2>Skills I Master</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">AWS</div>
+    <div class="skill-card">Elastic Compute</div>
+    <div class="skill-card">Load Balancing, Autoscaling & DNS</div>
+    <div class="skill-card">VPC</div>
+    <div class="skill-card">CloudFormation</div>
+
+    <div class="skill-card">Access Management & Monitoring</div>
+    <div class="skill-card">AWS Migration</div>
+    <div class="skill-card">Version Control with Git</div>
+    <div class="skill-card">Continuous Integration</div>
+    <div class="skill-card">Continuous Monitoring (ELK)</div>
+
+    <div class="skill-card">Data Virtualization</div>
+    <div class="skill-card">DevOps on AWS</div>
+    <div class="skill-card">DevSecOps</div>
+    <div class="skill-card">Application Deployment</div>
+  </div>
+</section>
+
+<section class="tools-section" id="tools">
+  <h2>Tools I Master</h2>
+
+  <div class="tools-row">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS">
+
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes">
+
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="Ansible">
+
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="Terraform">
+
+    <img src="image/puppet-icon.svg" alt="Puppet">
+
+    <img src="image/lambda.svg" alt="AWS Lambda">
+
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+  </div>
+</section>
+
+<footer class="portfolio-footer">
+  <div class="footer-top">
+    <!-- Personal Image -->
+    <div class="footer-col image-col">
+      <img src="image/yash.jpg" alt="Your Photo">
+    </div>
+
+    <!-- Quick Links / About -->
+    <div class="footer-col links-col">
+      <h4>About Me</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col contact-col">
+      <h4>Contact</h4>
+      <p>T – +91 8356981352</p>
+      <p>E –yashyogi114@gmail.com</p>
+      <p>Location:Mumbai, Maharastra</p>
+    </div>
+
+    <!-- Logo / Name -->
+    <div class="footer-col logo-col">
+      <h2>Yash Yogi</h2>
+      <p>© 2026. All Rights Reserved</p>
+    </div>
+  </div>
+
+  <!-- Social Links -->
+  <div class="footer-bottom">
+    <ul class="social-links">
+      <li><a href="@yashyogi19">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="https://www.linkedin.com/in/yashkummaryogi/">LinkedIn</a></li>
+      
+    </ul>
+  </div>
+</footer>
+
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const el = document.getElementById("typing");
+
+            if (el) {
+                new Typed("#typing", {
+                    strings: ["AWS Cloud", "DevOps Engineer", "Cloud Engineer", "Linux Administrator", "Automation"],
+                    typeSpeed: 110,
+                    backSpeed: 10,
+                    loop: true
+                });
+            }
+        });
+    </script>
+
+    <script>
+        const expBox = document.querySelector(".exp-single");
+
+        const expObserver = new IntersectionObserver(
+            entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = "translateY(0)";
+                    }
+                });
+            },
+            { threshold: 0.3 }
+        );
+
+        expObserver.observe(expBox);
+    </script>
+
+    <script>
+  const eduCards = document.querySelectorAll(".edu-card");
+
+  const eduObserver = new IntersectionObserver(
+    entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = "translateY(0)";
+        }
+      });
+    },
+    { threshold: 0.3 }
+  );
+
+  eduCards.forEach(card => eduObserver.observe(card));
+ 
+</script>
+<script>
+  const projectCards = document.querySelectorAll(".project-card");
+
+  const projectObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = "1";
+          entry.target.style.transform = "translateY(0)";
+          projectObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.2 }
+  );
+
+  projectCards.forEach(card => projectObserver.observe(card));
+</script>
+
+
+</body>
+
+</html>
