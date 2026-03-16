@@ -43,7 +43,7 @@ index.html → S3 Bucket → Internet
 
 
 ## Live URL
-[https://TERA-URL-YAHAN-DAALO.s3-website.amazonaws.com](http://amzn-s3-profile-project.s3-website-us-east-1.amazonaws.com/)
+(http://amzn-s3-profile-project.s3-website-us-east-1.amazonaws.com/)
 
 ## Author
 **Yash Kumar Yogi** | IT Executive transitioning to AWS Cloud Engineer
